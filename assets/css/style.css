@@ -1,7 +1,12 @@
 
+html {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 header {
     border-bottom: 2px solid #cccccc;
-    background-color: white; 
+    background-color: whitesmoke; 
 }
 
 a {
@@ -22,7 +27,7 @@ body {
 }
 
 .contactinfo {
-    padding-right: 50px;
+    padding-right: 375px;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 40px;
@@ -54,16 +59,21 @@ main {
 
 .connect {
     width: 270px;
-    height: 300px;
+    height: 200px;
+    color: #4aaaa5;
     background-color: white;
     float: left;
+    font-size: 20px;
     margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .img {
-    display: block;
-    margin: auto;
-    padding-right: 5px;
+    display: inline-block;
+    margin: 10px;
 }
 
 h1 {
@@ -80,6 +90,10 @@ h2 {
     padding-bottom: 2px;
 }
 
+h3{
+    border-bottom: 2px solid #cccccc;
+}
+
 .footer {
     clear: both;
     background-color: #666666;
@@ -90,32 +104,125 @@ h2 {
     bottom: 0px;
 }
 
-
-
-/* commented out code below.*/
-
-/*.links {
-    text-align: right;
-}
-*/
-
-/*
-nav {
-    float: right;
+input[type=text], select, textarea {
+    width: 60%;
 }
 
-h1 {
-    background-color: #4aaaa5;
+.contact-form {
+    width: 600px;
+    height: 350px;
+    float: left;
+    color: #777777;
+    border: 1px solid #cccccc;
+    margin-top: 5px;
+    background-color: white;
+    padding: 12px;
 }
 
-*/
-/* .h1 {
-    background-color:  #c23c3c;
-}
-*/
-
-/*
-.headerclass {
+.connectcontact {
+    width: 270px;
+    height: 200px;
+    color: #4aaaa5;
+    background-color: white;
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+input[type=submit] {
+    background-color: #4aaaa5;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+#msg {
+    height: 200px;
+}
+
+.portfolio-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 575px;
+    height: 450px;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+.image1 {
+    margin-left:50px;
+    margin-right:200px;
+    float: left;
+}
+.image2 {
+    margin-left:200px;
+}
+
+.image3 {
+    float:left;
+    margin-right: 200px;
+    margin-left:50px;
+}
+
+.image4 {
+    margin-left:200px;
+    position: relative;
+}
+
+.image5 {
+    margin-left: 50px;
+    position: absolute;
+}
+
+.hang {
+    width: 95px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 60px;
+    margin-top: 70px;
+    padding: 5px;
+    position: relative;
+}
+
+.widget {
+    width:85px;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    margin-left: 395px;
+    margin-top: -175px;
+    padding: 5px;
+}
+
+
+
+/*
+.trivia {
+    width:85px;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+  
+}
+
+.rpg {
+    width:85px;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+   
+}
+
+.rps {
+    width:85px;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+   
+}
 */
